@@ -1,6 +1,6 @@
 # Crie uma lista de números de 1 a 10 e mostre apenas os números pares.
 
 numeros = [1,2,3,4,5,6,7,8,9,10]
-for n in range(1, 11):
+for n in range(numeros):
     if n % 2 == 0:
         print(n)
